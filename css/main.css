@@ -1,0 +1,28 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;   
+}
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header, footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 1.0rem;
+}
+
+img {
+    float: right;
+    margin: 10px;
+    margin-top: -4px;
+    max-width: 20%;
+    border: 1px solid black;
+    height: auto;
+}
