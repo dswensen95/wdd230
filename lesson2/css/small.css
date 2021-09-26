@@ -1,0 +1,52 @@
+/* Body rules here */
+body {
+    font-family: Merryweather;
+    font-size: 16px;
+}
+
+/*header rules here*/
+header {
+    background-color: #17a8e4;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+}
+
+main section{
+    margin: 0; padding: 0;
+}
+main section{
+    list-style-type: none;
+}
+
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+main h1{
+    color:#17a8e4;
+}
+
+main figure img {
+    width: 100%;
+}
+main figure {
+    width: 100%;
+    margin: 0;
+}
+main figcaption {
+    text-align: center; 
+    font-size: .8rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #eee;
+}
