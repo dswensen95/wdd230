@@ -7,5 +7,6 @@ picture img {
   transition: filter 0.5s;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0;
+  margin: auto;
 }
