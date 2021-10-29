@@ -6,4 +6,6 @@ picture img {
   filter: blur(0em);
   transition: filter 0.5s;
   display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
