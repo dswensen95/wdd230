@@ -1,12 +1,3 @@
-article img[data-src] {
-  filter: blur(0.2em);
-}
-
-article img {
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
-
 const images = document.querySelectorAll("[data-src]");
 
 function preloadImage(img){
