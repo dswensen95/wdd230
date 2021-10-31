@@ -1,0 +1,18 @@
+@media only screen and (min-width: 35rem) {
+
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    section.forecast div{
+        text-align: center;
+        border: 1px solid #aaa;
+    }
+    section.forecast div h5 {
+        background-color: #eee;
+        margin: 0;
+        padding: 1rem 0;            
+    }
+
+}
