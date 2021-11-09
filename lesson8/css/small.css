@@ -98,9 +98,47 @@ figure{
       text-align: center;
   }
 
+  section.stormSeverity {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section.stormSeverity div{
+    text-align: center;
+    border: 1px solid #aaa;
+}
+section.stormSeverity div h1 {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem 0;            
+}
+section.stormSeverity {
+   
+        left: 50%;
+        top: 50%;
+        
+}
+
   form{
-      display: grid;
-      grid-template-columns: 150px 1fr;
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+
+}
+
+fieldset{
+    display: grid;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+  input [type=submit]{
+      background-color: cyan;
+      min-width: 75%;
+  }
+
+  input[type=submit]:hover{
+      background-color: blue;
+      color: white;
   }
 
   /*----------- FOOTER --------------*/
