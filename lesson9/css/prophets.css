@@ -42,3 +42,13 @@ img{
     max-width: 50%;
 }
 }
+
+@media screen and (min-width: 1000px)
+{
+div.cards{
+    text-align: center;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
