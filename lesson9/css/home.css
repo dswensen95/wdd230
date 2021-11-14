@@ -1,0 +1,241 @@
+section{
+    border: solid black;
+    background-color:darkkhaki;
+    color: black;
+    padding: 2rem;
+}
+
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+img {
+    float: left;
+    margin: .8rem;
+}
+
+nav button {
+    margin: 2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    background-color: blue;
+    font-family: Verdana;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: cyan;
+    border-top: 1px solid rgba(255,255,255,0.8);
+}
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+main figure.myphoto img {
+    width: 50%;
+    margin: 0 2% 0 0;
+    padding-bottom: 2%;
+   }
+
+  div#message {
+      background-color: yellow;
+  }
+  div.showme{display: block;}
+  div.hideme{display: none;}
+
+  section.forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section.forecast div{
+    text-align: center;
+    border: 1px solid #aaa;
+}
+section.forecast div h5 {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem 0;            
+}
+section.forecast div img {
+   
+        left: 50%;
+        top: 50%;
+        
+}
+ 
+main div.grid figure img[data-src] {
+    filter: blur(0.2em);
+  }
+
+figure img{
+    max-width: 45em;
+}
+figure{
+    filter: blur(0em);
+    transition: filter 0.5s;
+    display: grid;
+  }
+
+  figcaption{
+       float: left;
+      text-align: center;
+  }
+
+  section.stormSeverity {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section.stormSeverity div{
+    text-align: center;
+    border: 1px solid #aaa;
+}
+section.stormSeverity div h1 {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem 0;            
+}
+section.stormSeverity {
+   
+        left: 50%;
+        top: 50%;
+        
+}
+
+  form{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+
+}
+
+fieldset{
+    display: grid;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+  input [type=submit]{
+      background-color: cyan;
+      min-width: 75%;
+  }
+
+  input[type=submit]:hover{
+      background-color: blue;
+      color: white;
+  }
+
+  /*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+    margin: 0;
+}
+
+.card{
+    padding: 2rem;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (min-width: 600px)
+{
+h1{
+    text-align: center;
+}
+
+div.cards{
+    text-align: center;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    max-width: 50%;
+}
+}
+
+
+section.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+section.forecast div{
+    text-align: center;
+    border: 1px solid #aaa;
+}
+section.forecast div h5 {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem 0;            
+}
+
+
+
+@media screen and (min-width: 1000px)
+{
+div.cards{
+    text-align: center;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,9b0000+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #9b0000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#9b0000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#9b0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#9b0000',GradientType=0 ); /* IE6-9 */
+
+
+}
+nav button {display:none;}
+nav ul.hide{display: block;}
+nav ul {margin-left: 2%;}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    border:none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding:.6rem 1rem;
+}
+
+main, footer{
+    text-align: center;
+}
+
+}
