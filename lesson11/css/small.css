@@ -1,0 +1,181 @@
+.cards section{
+    border: solid black;
+    background-color:darkkhaki;
+    color: black;
+    padding: 2rem;
+}
+
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+img {
+    float: left;
+    margin: .8rem;
+}
+
+nav button {
+    margin: 2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    background-color: blue;
+    font-family: Verdana;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: cyan;
+    border-top: 1px solid rgba(255,255,255,0.8);
+}
+
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff;}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+main figure.myphoto img {
+    width: 50%;
+    margin: 0 2% 0 0;
+    padding-bottom: 2%;
+   }
+
+  div#message {
+      background-color: yellow;
+      margin-bottom: 100px;
+  }
+  div.showme{display: block;}
+  div.hideme{display: none;}
+
+  section.forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section.forecast div{
+    text-align: center;
+    border: 1px solid #aaa;
+}
+section.forecast div h5 {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem 0;            
+}
+section.forecast div img {
+   
+        left: 50%;
+        top: 50%;
+        
+}
+ 
+main div.grid figure img[data-src] {
+    filter: blur(0.2em);
+  }
+
+figure img{
+    max-width: 45em;
+}
+figure{
+    filter: blur(0em);
+    transition: filter 0.5s;
+    display: grid;
+  }
+
+  figcaption{
+       float: left;
+      text-align: center;
+  }
+
+  section.stormSeverity {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section.stormSeverity div{
+    text-align: center;
+    border: 1px solid #aaa;
+}
+section.stormSeverity div h1 {
+    background-color: #eee;
+    margin: 0;
+    padding: 1rem 0;            
+}
+section.stormSeverity {
+   
+        left: 50%;
+        top: 50%;
+        
+}
+
+  form{
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+
+}
+
+fieldset{
+    display: grid;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+  input [type=submit]{
+      background-color: cyan;
+      min-width: 75%;
+  }
+
+  input[type=submit]:hover{
+      background-color: blue;
+      color: white;
+  }
+
+  /*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+    margin: 0;
+}
+
+.card{
+    padding: 2rem;
+}
+
+div#forecast{
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+
+div#wForecast span p{
+    border: 1px solid black;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

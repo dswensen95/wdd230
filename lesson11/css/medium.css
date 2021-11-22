@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1029px) {
+
+
+       
+        div.cards{
+            text-align: justify;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+                    
+        }
+
+        .cards section{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+    
+        .cards img{
+            max-width: 50%;
+            float: right; 
+            margin-left: 20rem;
+            margin-bottom: 20rem;
+       }
+
+       .cards section{
+           display: inline-block;
+       }
+            
+        img{
+            max-width: 50%;
+            float: left;
+        }
+    
+        
+        
+        section.forecast {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+        
+        section.forecast div{
+            text-align: center;
+            border: 1px solid #aaa;
+        }
+        section.forecast div h5 {
+            background-color: #eee;
+            margin: 0;
+            padding: 1rem 0;            
+        }
+
+       
+
+        div#wForecast{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border: 1px solid black;
+            float: left;
+        }
+    }
