@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/path10.jpg.png" width=40 height=55>
+        <h1>Swensen's Weather Stop</h1>
+        <h2>Weather You Like it Or Not</h2>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodaSprings.html">Soda Springs</a></li>
+                <li><a href="fishHaven.html">Fish Haven</a></li>
+                <li><a href="StormCenter.html">Storm Center</a></li>
+                <li class="active"><a href="Gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="grid">
+            <figure>
+                <img data-src="images/cloudy.jpg" src="images/placeholder.png" alt="cloudy">
+                <figcaption>Cloudy with a Chance</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/fog.jpg" src="images/placeholder.png" alt="fog">
+                <figcaption>Foggy</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/pexels-brett-sayles-1431822.jpg" src="images/placeholder.png" alt="weather image">
+                <figcaption>Lovely Stock Photo!</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/rainy.jpg" src="images/placeholder.png" alt="rainy">
+                <figcaption>Rain, Rain, Go Away!</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/snow.jpg" src="images/placeholder.png" alt="snow">
+                <figcaption>Snow Day!</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/sunny.jpg" src="images/placeholder.png" alt="sunny">
+                <figcaption>Sunny Days . . .</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/pexels-eberhard-grossgasteiger-844297.jpg" src="images/placeholder.png" alt="weather image">
+                <figcaption>Another Lovely Stock Photo</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/pexels-pixabay-268941.jpg" src="images/placeholder.png" alt="weather image">
+                <figcaption>Oh, look! Another Stock Photo!</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/pexels-pixabay-459451.jpg" src="images/placeholder.png" alt="">
+                <figcaption>Final Stock Photo, I Promise!</figcaption>
+            </figure>
+        </div>
+      </main>
+    <footer>
+        &copy; Today's date: <span id="currentdate"></span> | Danielle Swensen 
+    </footer>
+    <script src="js/currentDate.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+</html>
