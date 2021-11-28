@@ -13,21 +13,24 @@ fetch(requestURL)
          
 
         let card = document.createElement('section');
+        let image = document.createElement('img');
         let h2 = document.createElement('h2');
         let p = document.createElement('p');
         let p2 = document.createElement('p');
         let h3 = document.createElement('h3');
-        let image = document.createElement('img');
+ 
         h2.textContent = jsonObject.towns[i].name;
         h3.textContent = jsonObject.towns[i].motto;
         p.textContent = 'Year Founded: ' + jsonObject.towns[i].yearFounded;
         p2.textContent = 'Current Population: ' + jsonObject.towns[i].currentPopulation;
         
+        
         card.appendChild(h2);
+        card.appendChild(image);
         card.appendChild(h3);
         card.appendChild(p);
         card.appendChild(p2);
-        card.appendChild(image);
+     
         
         document.querySelector('div.cards').appendChild(card);
 
