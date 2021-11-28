@@ -2,10 +2,13 @@
     border: solid black;
     background-color:darkkhaki;
     color: black;
-    padding: 2rem;
+
 }
 
-
+.cards h3{
+    padding: 0;
+    margin-top: .2rem;
+}
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -26,6 +29,7 @@ nav button {
 nav {
     background-color: blue;
     font-family: Verdana;
+    margin-top: 0;
 }
 
 nav ul {
@@ -70,25 +74,10 @@ main figure.myphoto img {
   div.showme{display: block;}
   div.hideme{display: none;}
 
-  section.forecast {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-section.forecast div{
-    text-align: center;
-    border: 1px solid #aaa;
-}
-section.forecast div h5 {
-    background-color: #eee;
-    margin: 0;
-    padding: 1rem 0;            
-}
-section.forecast div img {
-   
-        left: 50%;
-        top: 50%;
-        
-}
+  div#forecast{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
  
 main div.grid figure img[data-src] {
     filter: blur(0.2em);
@@ -163,15 +152,89 @@ footer {
     padding: 2rem;
 }
 
-div#forecast{
-    float: left;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 2rem;
+div{
+    text-align: center;
 }
 
-div#wForecast span p{
+div#forecast{
+    display: block;
+}
+
+div#forecast{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+   }
+
+div#wForecast{
+    border: solid 1px black;
+}
+
+div#wForecast img{
+    margin-left: 9rem;
+}
+
+div#wForecast span{
+    font-size: 30px;
     border: 1px solid black;
+    background-color: chocolate;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div h2{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+header h1{
+    font-size: 60px;
+    padding: 0 0 2 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+header h2{
+    padding: 0;
+    margin-left: 20px;
+}
+
+header{
+    text-align: center;
+    background-color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header img{
+    margin-right: 2rem;
+    margin-left: 5rem;
+    padding-right: 0;
+}
+
+div.cards{
+    text-align: center;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+}
+
+div.cards h3{
+    padding: 0;
+    margin: 0;
+}
+
+div.cards img{
+    margin-bottom: 10px;
+    margin-right: 125px;
+}
+
+
+main{
+    background-color: lightgray;
 }
 
 .clearfix:after {

@@ -1,12 +1,21 @@
 @media only screen and (min-width: 70rem) {
 
     div.cards{
-        text-align: justify;
-            padding: 20px;
+        text-align: center;
+            padding: .5rem;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    div.cards h3{
+        padding: 0;
+        margin: 0;
+    }
+
+    div.cards img{
+        margin-bottom: 1px;
+        margin-right: 100px;
+    }
     
     nav {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,9b0000+100 */
@@ -32,5 +41,14 @@
     
     main, footer{
         text-align: center;
+    }
+
+    div#forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    div#wForecast img{
+        margin: 0;
     }
 }

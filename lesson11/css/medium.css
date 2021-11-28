@@ -32,29 +32,31 @@
             float: left;
         }
     
-        
-        
-        section.forecast {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        }
-        
-        section.forecast div{
+        div{
             text-align: center;
-            border: 1px solid #aaa;
         }
-        section.forecast div h5 {
-            background-color: #eee;
-            margin: 0;
-            padding: 1rem 0;            
+
+        div#forecast{
+            display: block;
+        }
+        
+        div#forecast{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 200px;
+            margin-right: 200px;
+            text-align: center;
+           }
+        
+        div#wForecast{
+            border: solid 1px black;
+        }
+
+        div#wForecast img{
+            margin-left: 9rem;
         }
 
        
+       
 
-        div#wForecast{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            border: 1px solid black;
-            float: left;
-        }
     }
