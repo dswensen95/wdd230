@@ -17,11 +17,9 @@
 </head>
 <body>
     <header>
-        <img src="images/path10.jpg.png" width=40 height=55>
+        <img src="images/path10.jpg.png" width=40 height=55 alt="Weather Logo">
         <h1>Swensen's Weather Stop</h1>
         <h2>Weather You Like it Or Not</h2>
-    </header>
-    <main>
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
@@ -33,34 +31,17 @@
                 <li><a href="Gallery.html">Gallery</a></li>
             </ul>
         </nav>
-        <section class="forecast">
-            <div>
-                <h5>Monday</h5>
-                <img src="images/cloudy.jpg" width="100" height="70" alt="cloudy">
-                <p>60&deg;</p>
-            </div>
-            <div>
-                <h5>Tuesday</h5>
-                <img src="images/rainy.jpg" width="100" height="70" alt="rainy">
-                <p>45&deg;</p>
-            </div>
-            <div>
-                <h5>Wednesday</h5>
-                <img src="images/sunny.jpg" width="100" height="70" alt="sunny">
-                <p>70&deg;</p>
-            </div>
-            <div>
-                <h5>Thursday</h5>
-                <img src="images/fog.jpg" width="100" height="70" alt="fog">
-                <p>35&deg;</p>
-            </div>
-            <div>
-                <h5>Friday</h5>
-                <img src="images/snow.jpg" width="100" height="70" alt="snow">
-                <p>35&deg;</p>
-            </div>
-        </section>
-        <div id="message">Church Reminder</div>
+    </header>
+    <main>
+        <div>
+            <h2>Forecast For <span id="town"></span></h2>
+            <p>Current Temperature is: <span id="temp">45</span>&deg</p>
+            <p>Current Wind Speed is: <span id="speed">55</span>mph</p>
+            <p id="chill"> </p>
+        </div>
+        <div id="forecast">
+           
+        </div>
     </main>
     <footer>
         &copy; Today's date: <span id="currentdate"></span> | Danielle Swensen 
@@ -68,5 +49,6 @@
     <script src="js/currentDate.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/datePopup.js"></script>
+    <script src="js/fishHavenForecast.js"></script>
 </body>
 </html>

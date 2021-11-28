@@ -17,11 +17,9 @@
 </head>
 <body>
     <header>
-        <img src="images/path10.jpg.png" width=40 height=55>
+        <img src="images/path10.jpg.png" width=40 height=55 alt="Weather Logo">
         <h1>Swensen's Weather Stop</h1>
         <h2>Weather You Like it Or Not</h2>
-    </header>
-    <main class="clearfix">
         <nav class="clearfix">
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
@@ -33,15 +31,17 @@
                 <li><a href="Gallery.html">Gallery</a></li>
             </ul>
         </nav>
-            
-        <div id="forecast">
-            <section class="preston">
+    </header>
+    <main class="clearfix">
+           
+        <div>
             <h2>Forecast For <span id="town"></span></h2>
             <p>Current Temperature is: <span id="temp">45</span>&deg</p>
             <p>Current Wind Speed is: <span id="speed">55</span>mph</p>
             <p id="chill"> </p>
-            </section>
-
+        </div>
+        <div id="forecast">
+           
         </div>
         
     </main>
