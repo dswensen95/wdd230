@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join</title>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/Chamber of Commerce.jpg">
+            <h1>San Tan Valley Arizona - Chamber of Commerce</h1>
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="SanTanValley.html">San Tan Valley</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="Join">
+            <img src="images/dreamstime_s_116885432.jpg">
+            <h3>
+                Come Join the Fun!
+            </h3>
+            <p>The San Tan Vallye Chamber of Commerce is committed to helping individuals, businesses, and communities not just survive but thrive! If this is your goal, too, and if you feel you have something to offer (regardless how meek and subtle you feel it is), then fill out the form below!</p>
+            <h2>What are you waiting for?</h2>
+            <section class="join">
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                    <legend>Your Information</legend>
+                    <label>Full Name:* <input type="text" name="firstName" required></label>
+                    <label>Last Name:* <input type="text" name="lastName" required></label>
+                    <label>Title: <input type="text" name="title"></label>
+                    <label>Email:* <input type="email" name="email" required></label>
+                    <label>Mobile: <input type="tel" name="mobile"></label>
+                    <label>Business Name:* <input type="text" name="businessName" requried></label>
+                    <label>Business Address: <input type="text" name="address"></label>
+                    <label>Business Site: <input type="url" name="businessSite"></label>
+                    <label>Business Description: <input type="text" name="description"></label>
+                    <label>Membership Level: 
+                        <input type="radio">Non-profit ($100)
+                        <input type="radio">Bronze ($200)
+                        <input type="radio">Silver ($400)
+                        <input type="radio">Gold ($1000)
+                    </label>
+                <input type="submit" value="submit">
+            </fieldset>
+                </form>
+            </section>
+        </main>
+        <script src="js/toggleMenu.js"></script>
+    </body>
+</html>
