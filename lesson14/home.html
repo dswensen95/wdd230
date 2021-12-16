@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/Chamber of Commerce.jpg">
+            <h1>San Tan Valley Arizona - Chamber of Commerce</h1>
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="SanTanValley.html">San Tan Valley</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main  class="home">
+            <figure>
+            <img src="images/iStock-1275141181.jpg" alt="Sunset in Arizona">
+            <figcaption></figcaption>
+            </figure>
+            <article>
+                <h2>
+                    San Tan Valley
+                </h2>
+                <p>
+                    Welcome! Here, we believe in working together and building a team made up of ordinary people to help each other pave the path to success for every individual with a dream!
+                </p>
+                <h3>Who are we?</h3>
+                <p>We are builders. We are dreamers. We are YOU!</p>
+                <p>We know that life has its struggles as well as blessings. Just about every successful person who has ever lived has experienced to some degree or other a time of doubt. Our goal is to help you acheive success, whatever it is you're looking for!</p>
+                <h3>So . . . What are you waiting for???</h3>
+                <p>Click the button below to join our Chamber of Commerce today!</p>
+            </article>
+            <section>
+                <button><a href="join.html">Join the Party!</a></button>
+            </section>
+            <div class="forecast">
+            <h2>Forecast for <span id="town"></span></h2>
+            <h3>Today's Weather</h3>
+            <p>Current Temperature: <span id="temp">00</span>&deg</p>
+            <p>Current Wind Speed: <span id="speed">00</span>mph</p>
+            </div>
+            <div id="forecast">
+            </div>
+            <section class="events">
+                <h2>Events</h2>
+                <h3>Christmas at Schnepf Farms</h3>
+            </section>
+            <section>
+                <h3>Social Media Links</h3>
+                <p><a href="https://www.classtools.net/FB/202112-SQWVGW">Fakebook</a></p>
+
+            </section>
+            
+        </main>
+        <script src="js/toggleMenu.js"></script>
+        <script src="js/forecast.js"></script>
+    </body>
+</html>
