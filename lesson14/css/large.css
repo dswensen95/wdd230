@@ -1,0 +1,89 @@
+@media only screen and (min-width: 1029px){
+
+    header img{
+        width: 7rem;
+        height: 7rem;
+        float: right;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    
+    header h1{
+        padding-right: 8rem;
+        text-align: left;
+        float: left;
+        font-size: 3rem;
+    }
+
+    nav {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,9b0000+100 */
+    background: #FF7800; /* Old browsers */
+    background: -moz-linear-gradient(top,  #FF7800 0%, #FFBC97 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #FF7800 0%, #FFBC97 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #FF7800 0%, #FFBC97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#9b0000',GradientType=0 ); /* IE6-9 */
+    
+    
+    }
+    nav button {display:none;}
+    nav ul.hide{display: block;}
+    nav ul {margin-left: 2%;}
+    nav ul li{
+        float: left;
+    }
+    nav ul li a{
+        border:none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding:.6rem 1rem;
+    }
+
+    main.home figure img{
+        width: 65rem;
+        height: 25rem;
+        margin-top: 10rem;
+    }
+
+    main.Join img{
+        float: right;
+    }
+
+    main {
+        padding: .7rem;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    nav{
+        margin-top: -8rem;
+        padding-top: 0;
+    }
+
+    section.map{
+        margin-right: 10rem;
+        float: left;
+    }
+
+    main.contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div#forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    div#wForecast{
+        border: 1px solid black;
+    }
+
+    div#wForecast span{
+        background-color: #FFE300;
+        color: #FF7800
+    }
+}

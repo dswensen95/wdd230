@@ -1,0 +1,149 @@
+header img{
+    width: 5rem;
+    height: 5rem;
+    float: right;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+header h1{
+    padding-right: 7rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    float: left;
+    font-size: 2rem;
+}
+
+main.home figure img{
+    width: 10rem;
+    height: 5rem;
+    margin-top: 5rem;
+}
+
+main.contact img{
+    width: 25rem;
+    height: 15rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    float: right;
+}
+
+main.contact section.map{
+    margin-bottom: 1rem;
+}
+
+main.Join img{
+    width: 30rem;
+    height: 20rem;
+    margin: 1rem;
+}
+
+main.Join p{
+    padding: 1rem;
+    margin: 5rem;
+}
+
+nav button {
+    margin: 2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    background-color: #FF7800;
+    font-family: Verdana;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 8rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #F7F7F7;
+    border-top: 1px solid rgba(255,255,255,0.8);
+}
+
+nav ul li.active a{background-color: #FFBC97; color: #fff;}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+button{
+    padding: 1rem;
+    color: #FF7800;
+    background-color: #FFE300;
+    border: 0; 
+}
+
+main{
+    margin-left: 1rem;
+}
+
+iframe{
+    width: 20rem;
+    height: 20rem;
+}
+
+section.join form{
+    display: inline-block;
+}
+
+section.join form fieldset{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    padding-left: 1.5rem;
+}
+
+section.join form fieldset input [type=submit]{
+    background-color: orange;
+    min-width: 50%;
+}
+
+main.contact form fieldset{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section.contForm form fieldset input [type=submit]{
+    min-width: 50%;
+}
+
+body{
+    background-color: #FFBC97;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div#forecast{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div#wForecast{
+    border: 1px solid black;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

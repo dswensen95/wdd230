@@ -1,0 +1,55 @@
+@media only screen and (min-width: 700px){
+    header img{
+        width: 7rem;
+        height: 7rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    
+    header h1{
+        padding-right: 1rem;
+        text-align: left;
+        float: left;
+        font-size: 2rem;
+    }
+
+    nav button{
+        margin-right: 10rem;
+    }
+
+    main.home figure img{
+        width: 55rem;
+        height: 18rem;
+    }
+
+    main.contact img{
+        width: 45rem;
+        height: 25rem;
+    }
+
+    section.map{
+        float: left;
+        margin-bottom: 20rem;
+       
+    }
+
+    section.contForm form{
+        display: inline-block;
+    }
+
+    div#forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div#wForecast{
+        border: 1px solid black;
+    }
+
+    div#wForecast span{
+        background-color: #FFE300;
+        color: #FF7800;
+    }
+
+}
